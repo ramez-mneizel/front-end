@@ -1,0 +1,30 @@
+p span{
+
+    color: blueviolet;
+}
+
+p{
+
+    background-color: black;
+color: antiquewhite;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+dl{
+
+background-color: black;
+
+}
+
+dt{
+    color: aqua;
+}
+
+dd{
+
+color: blue;
+
+}
+

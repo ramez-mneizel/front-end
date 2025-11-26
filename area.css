@@ -1,0 +1,63 @@
+
+
+
+#maingrid{
+
+display: grid;
+
+grid-template-areas:navbar navbar navbar ;
+}
+
+
+#navbar {
+
+    background-color: chocolate;
+    color: antiquewhite; 
+text-align: medium;
+font-size: larger;
+}
+
+
+
+#BYD{
+    background-color: rgb(243, 235, 235);
+    color: rgb(247, 2, 2);
+    font-size:medium;
+    
+}
+
+#BMW{
+
+border-radius: 333px;
+box-shadow:rgb(207, 3, 3);
+}
+
+#BMW p{
+font-size:xx-large;
+background-color: rgba(31, 68, 136, 0.281);
+}
+#KIA{
+background-size:30px;
+    background-color: aliceblue;
+    color: coral;
+    font-size:smaller;
+
+}
+
+
+#KIA p{
+    background-color: brown;
+    font-size: xx-large;
+    color: rgb(44, 247, 3);
+
+}
+
+#footer{
+
+background-color: darkblue;
+font-size: larger;
+font-style: normal;
+color: aliceblue;
+}
+
+

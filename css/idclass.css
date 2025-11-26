@@ -1,0 +1,83 @@
+h2{
+
+color: aqua;
+
+}
+
+.r{
+    color: blueviolet;
+
+background-color: black;
+
+}
+
+#main{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.z{
+
+    background-color: burlywood;
+    color: rgba(238, 255, 0, 0.76);
+}
+.v{
+
+font-size: 87px;
+color: coral;
+
+}
+
+
+h4[data-zzz]
+{
+
+    color: blue;
+}
+
+#l{
+background-color: darkolivegreen;
+    color: aqua;
+}
+
+
+#f{
+
+    background-color: aqua;
+    color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+}
+
+.m{
+
+
+background-color: blueviolet;
+color: blue;
+text-align;
+margin-block:inherit;
+
+font-size: 45px;
+}
+
+h4[title="n"] {
+background-color: blue;
+    color: rgb(248, 6, 6);
+}
+
+img[class="for-car"]
+{
+
+box-shadow: 5px 10px 7px rgba(0, 0, 0, 99) ;
+border-radius: 40px;
+
+}
+
+
+
+*{
+هذا اضعف تاغ فيهم ما حيتطبق 
+    color: brown;
+
+}
+

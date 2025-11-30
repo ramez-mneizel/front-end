@@ -45,4 +45,18 @@ if(z>=10) {
 }
 
 
+switch (z) {
+
+    case 10:
+        console.log('z equal 10')
+        break;
+        case 9:
+            console.log (' z not equal 10')
+            break;
+            default:
+                console.log('no value is match')
+                break;
+}
+
+
 

@@ -1,6 +1,6 @@
 alert('welcome to js')
-var x1=document.getElementById('navlogo')
-// x1.style.backgroundColor='red'
+var x1=document.getElementById('navbar')
+x1.style.backgroundColor='red'
 // x1.style.borderRadius='50px'
 x1.style.width='300px'
 

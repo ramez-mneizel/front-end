@@ -13,7 +13,7 @@ body{
 }
 #navbar{
 /* background-color: blue; */
- background: linear-gradient(90deg, #1e3a8a, #3b82f6);/* تدرج لوني جميل بين الأزرق الغامق والفاتح */
+ background-color: linear-gradient(90deg, #1e3a8a, #3b82f6);/* تدرج لوني جميل بين الأزرق الغامق والفاتح */
 display: flex;
 justify-content: space-between;
 align-items: center;

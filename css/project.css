@@ -1,29 +1,53 @@
-body{
 
- background-color: rgba(0, 0, 0, 0.863);
 
-}
 
-.container{
-    margin-top: 5px;
-   
+
     
+
+@media (max-width:768px) {
+    .navbar{
+
+display:inline-block;
+flex-direction: column;
+    }
+    .navbar ul {
+    flex-direction:row;
+    padding-right: 700px;
+       
+    }
+    
+
 }
+
+body{
+background-color: rgb(11, 43, 43);
+}
+
+
 
 .navbar{
-display: flex;
-
+   display: flex;
+padding: 10px;
 color: rgba(240, 248, 255, 0.808);
 align-items: center;
-
+font-size: medium;
 }
 
-.navbar ul{
+
+
+.navbar h1{
+
+    color: #e8e1e9;
+   margin: 5px;
+}
+
+
+.navbar ul {
 display: flex;
 gap: 40px;
 margin-left: 700px;
 justify-content: right;
-align-content: 
+
 }
 .navbtn{
     color: beige;
@@ -32,29 +56,69 @@ margin: 20px;
 background-color: chocolate;
 font-size: 20px;
 }
+
+
+
+.main{
+    display: grid;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+ .main img{
+    display: block;
+    margin: 0 auto;
+   align-items: center;
+width: 45%;
+border-radius: 30px;
+
+}
+
+.img2{
+    display: flex;
+padding :5%;
+    width: 60%;
+    gap: 20px;
+}
+
+
+.main p{
+
+font-size:xx-large;
+    color: #d9d9d9;
+
+}
+
+
+
+
+
+
 .footer{
-width: 100%;
-display: flex;
-justify-content: center;
+    display: flex;
+width: 50%;
 align-items: center;
 margin-top: 78%;
- background-color: peru;
- padding: 10px;
+ color: #d9d9d9;
+ padding: 20px;
+text-align: center;
 }
-.a{
-display: flex;
-justify-content: center;
-margin: 30px;
-gap: 30px;
-}
+
 
 .footer p{
 
+justify-content: center;
+margin: 30px;
 font-size: medium;
 
 }
 
+.fix{
 
+    color: rgb(241, 5, 5);
+}
 
 
 

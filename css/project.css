@@ -42,21 +42,27 @@ font-size: medium;
 }
 
 
-.navbar ul {
+.navbar ul  {
+    background-color: transparent;
+color: #ffffff;
 display: flex;
 gap: 40px;
 margin-left: 700px;
 justify-content: right;
-
 }
+
+.wh{
+    text-decoration: none;
+    color: #e8e1e9;
+}
+
 .navbtn{
-    color: beige;
+    color: rgb(243, 243, 233);
 margin: 20px;
     font-weight: 500;
-background-color: chocolate;
+background-color: rgb(241, 238, 235);
 font-size: 20px;
 }
-
 
 
 .main{
@@ -68,11 +74,17 @@ font-size: 20px;
 
 
  .main img{
-    display: block;
+    display: flex;
     margin: 0 auto;
    align-items: center;
 width: 45%;
 border-radius: 30px;
+
+}
+
+h5{
+font-size: larger;
+color: #ffffff;
 
 }
 
@@ -91,39 +103,44 @@ font-size:xx-large;
 
 }
 
-
-
-
-
-
 .footer{
-    display: flex;
-width: 50%;
-align-items: center;
-margin-top: 78%;
+    font-size:large;
+width: 80%;
+margin-top: 5%;
  color: #d9d9d9;
- padding: 20px;
+ padding:10%;
 text-align: center;
 }
 
-
-.footer p{
-
-justify-content: center;
-margin: 30px;
-font-size: medium;
+.B{
+    color: #d9d9d9;
+    text-align: center;
+font-size: small;
 
 }
 
-.fix{
-
-    color: rgb(241, 5, 5);
+.address{
+    color: #e8e1e99a;
 }
 
+.new{
+    text-align: center;
+    font-size: larger;
+background-color:  rgb(11, 43, 43);
 
-body.dark-mode{
-
-    background-color: #121212;
     color: #ffffff;
 }
 
+.toyota{
+text-align: center;
+color: #ffffff;
+
+}
+
+
+h5{
+    text-align: center;
+    font-size: x-large;
+    background-color: #ffffff;
+    color: rgb(107, 14, 194);
+}

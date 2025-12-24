@@ -6,17 +6,47 @@
 
 @media (max-width:768px) {
     .navbar{
-
-display:inline-block;
-flex-direction: column;
+        flex-direction:column;
+    width: 70%;
+      justify-content: center;
+      
     }
-    .navbar ul {
-    flex-direction:row;
-    padding-right: 700px;
-       
-    }
-    
+    .navbar ul li {
+    flex-direction:column;
+padding-right: 10px;
 
+    }
+    .navbar li{
+margin-right: 4%;
+display: flex;
+justify-content: center;
+
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.nav1{
+font-size:xx-large;
+    font-size: 1.5rem;
+}
+
+
+}
+
+body.dark-mode{
+
+background-color: #121212;
+color: #ffffff;
+
+}
+body.dark-mode .navbar,
+body.dark-mode .container{
+    background-color: #1a1a1a;
+
+    color: #ffffff;
 }
 
 body{
@@ -72,7 +102,7 @@ font-size: 20px;
 
 .navbtn a{
     text-decoration: none;
-    color: #ffffff;
+    color: #e8e1e9;
     background: none;
 }
 

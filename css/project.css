@@ -185,3 +185,24 @@ h5{
     background-color: #ffffff;
     color: rgb(107, 14, 194);
 }
+
+.cars-grid{
+
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-card{
+
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.car-card img{
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
